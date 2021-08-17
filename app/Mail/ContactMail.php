@@ -6,12 +6,14 @@ use Illuminate\Mail\Mailable;
 
 class ContactMail extends Mailable {
 
-    public String $name;
-    public String $email;
-    public String $message;
+    public string $name;
+    public string $email;
+    public string $msg;
 
-    public function __construct() {
-        //
+    public function __construct(array $attributes) {
+        $this->name = $attributes['name'];
+        $this->email = $attributes['email'];
+        $this->msg = $attributes['msg'];
     }
 
     public function build() {
