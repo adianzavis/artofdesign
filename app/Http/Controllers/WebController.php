@@ -69,5 +69,7 @@ class WebController extends Controller {
 
     public function sendMail(Request $request) {
         Mail::to('info@artofdecoration.ch')->send(new ContactMail($request->all()));
+        
+        return redirect()->route('contact');
     }
 }
