@@ -6,9 +6,9 @@ use Illuminate\Mail\Mailable;
 
 class ContactMail extends Mailable {
 
-    public string $name;
-    public string $email;
-    public string $msg;
+    public $name;
+    public $email;
+    public $msg;
 
     public function __construct(array $attributes) {
         $this->name = $attributes['name'];
