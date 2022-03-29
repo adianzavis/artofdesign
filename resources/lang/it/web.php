@@ -168,4 +168,28 @@ return [
 			Lato anteriore – Soffitto teso Basic o Double Vision<br>
 			Lato 2osterior – Soffitto teso Basic o Double Vision',
 	],
+
+    'privacy' => [
+        'headline' => 'IMPRONTA',
+        'contact' => 'Indirizzo di contatto',
+        'address' => 'Kostolny-Art of decoration<br>
+            via Cava 11<br>
+            6855 Stabio<br>
+            Schweiz<br>',
+        'email' => 'info@artofdecoration.ch',
+        'text' => [
+            '1' => "Rappresentanti Autorizzati",
+            '2' => "Bruno Kostolny",
+            '3' => "Numero di registrazione della società",
+            '4' => "CH-5001.1.021.578-9",
+            '5' => "UID/MWST",
+            '6' => "CH-218.151.450",
+            '8' => "Il disconoscimento",
+            '9' => "L'autore non si assume alcuna responsabilità per la correttezza, accuratezza, tempestività, affidabilità e completezza delle informazioni. Sono escluse le pretese di responsabilità nei confronti dell'autore per danni materiali o immateriali derivanti dall'accesso, dall'uso o dal mancato utilizzo delle informazioni pubblicate, dall'uso improprio del collegamento o da difetti tecnici. Tutte le offerte non sono vincolanti. L'autore si riserva espressamente il diritto di modificare, integrare o eliminare parti delle pagine o l'intera offerta senza preavviso o di cessare temporaneamente o definitivamente la pubblicazione.",
+            '10' => "Responsabilità per link",
+            '11' => "Riferimenti e collegamenti a siti Web di terzi esulano dalla nostra area di responsabilità. Si declina ogni responsabilità per tali siti web. L'accesso e l'utilizzo di tali siti Web è a rischio e pericolo dell'utente.",
+            '12' => "Diritti d'autore",
+            '13' => "Il diritto d'autore e tutti gli altri diritti su contenuti, immagini, foto o altri file sul sito Web appartengono esclusivamente a Huwyler Studer AG o ai titolari dei diritti appositamente citati. L'autorizzazione scritta dei titolari dei diritti d'autore deve essere ottenuta in anticipo per la riproduzione di qualsiasi elemento.",
+        ]
+    ]
 ];

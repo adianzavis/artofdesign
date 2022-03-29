@@ -168,4 +168,28 @@ return [
 			Front side - Stretch ceiling Basic or Double Vision<br>
 			Back side - Stretch ceiling Basic or Double Vision',
 	],
+
+    'privacy' => [
+        'headline' => 'IMPRINT',
+        'contact' => 'Contact address',
+        'address' => 'Kostolny-Art of decoration<br>
+            via Cava 11<br>
+            6855 Stabio<br>
+            Schweiz<br>',
+        'email' => 'info@artofdecoration.ch',
+        'text' => [
+            '1' => 'Authorized Representatives',
+            '2' => 'Bruno Kostolny',
+            '3' => 'Company registration number',
+            '4' => 'CH-5001.1.021.578-9',
+            '5' => 'UID/MWST',
+            '6' => 'CH-218.151.450',
+            '8' => 'Disclaimer',
+            '9' => 'The author assumes no liability for the correctness, accuracy, timeliness, reliability and completeness of the information. Liability claims against the author for material or immaterial damage resulting from access to, use or non-use of the published information, misuse of the connection or technical faults are excluded. All offers are non-binding. The author expressly reserves the right to change, supplement or delete parts of the pages or the entire offer without prior notice or to temporarily or permanently cease publication.',
+            '10' => 'Liability for links',
+            '11' => "References and links to third-party websites are outside our area of responsibility. Any responsibility for such websites is rejected. Access and use of such websites is at the user's own risk.",
+            '12' => 'Copyrights',
+            '13' => 'The copyright and all other rights to content, images, photos or other files on the website belong exclusively to Huwyler Studer AG or the specifically named rights holders. The written permission of the copyright holders must be obtained in advance for the reproduction of any elements.',
+        ]
+    ]
 ];

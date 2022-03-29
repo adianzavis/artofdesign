@@ -10,35 +10,35 @@ class WebController extends Controller {
     public function index(Request $request) {
         return view('web/index');
     }
-    
+
     public function tray(Request $request) {
         return view('web/tray');
     }
-    
+
     public function doubleColor(Request $request) {
         return view('web/double-color');
     }
-    
+
     public function photoPrinting(Request $request) {
         return view('web/photo-printing');
     }
-    
+
     public function starrySky(Request $request) {
         return view('web/starry-sky');
     }
-    
+
     public function artPerforation(Request $request) {
         return view('web/art-perforation');
     }
-    
+
     public function floatingCeilings(Request $request) {
         return view('web/floating-ceilings');
     }
-    
+
     public function translucent(Request $request) {
         return view('web/translucent');
     }
-    
+
     public function floatingLines(Request $request) {
         return view('web/floating-lines');
     }
@@ -63,7 +63,11 @@ class WebController extends Controller {
         return view('web/contact');
     }
 
+    public function privacyPolicy(Request $request) {
+        return view('web/privacy');
+    }
+
     public function sendMail(Request $request) {
-        Mail::to('adrian@anstudio.sk')->send(new ContactMail($request->all()));
+        Mail::to('info@artofdecoration.ch')->send(new ContactMail($request->all()));
     }
 }

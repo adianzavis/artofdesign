@@ -18,6 +18,7 @@ Route::get('/light-boxes', 'WebController@lightBoxes');
 Route::get('/certificates', 'WebController@certificates');
 Route::post('/contact', 'WebController@sendMail');
 Route::get('/contact', 'WebController@contact');
+Route::get('/privacy-policy', 'WebController@privacyPolicy');
 
 Route::group(['prefix' => '/{language?}', 'middleware' => 'locale'], function() {
 	Route::get('/', 'WebController@index')->name('home');
@@ -35,4 +36,5 @@ Route::group(['prefix' => '/{language?}', 'middleware' => 'locale'], function() 
 	Route::get('/certificates', 'WebController@certificates')->name('certificates');
 	Route::get('/light-boxes', 'WebController@lightBoxes');
 	Route::get('/contact', 'WebController@contact')->name('contact');
+    Route::get('/privacy-policy', 'WebController@privacyPolicy');
 });

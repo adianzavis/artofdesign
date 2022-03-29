@@ -45,7 +45,7 @@
 						<ul>
 							<li>Copyright © 2021 StudioLemonCake</a></li>
 							<li>|</li>
-							<li><a href="">Privacy Policy</a></li>
+							<li><a href="./privacy-policy">Privacy Policy</a></li>
 							<li>|</li>
 							<li><a href="">Terms of Use</a></li>
 						</ul>
